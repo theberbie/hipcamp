@@ -1,0 +1,57 @@
+body {
+    background: #355C7D;
+    background: -webkit-linear-gradient(to right,#C06C84,#6C5B7B,#355C7D);
+    background: linear-gradient(to right,#C06C84,#6C5B7B,#355C7D);
+    font-family: 'Roboto Slab',serif;
+    margin: 20px;
+}
+
+.App-title {
+    color: white;
+}
+
+hr {
+    font-size: 1em;
+    border: 1px solid green;
+}
+
+.features {
+    ul {
+        color: orange;
+        list-style: none;
+        margin: 0 auto;
+    }
+    h1 {
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.feature-div {
+    border: 1px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;;
+    .fa {
+        cursor: pointer;
+        margin-left: 10px;
+        font-size: 0.8em;
+    }
+    li {
+      margin: 10px;
+    }
+    .absentFeature {
+        text-decoration: line-through;
+        color: white;
+    }
+    .subFeature-li {
+        font-size: 0.8em;
+    }
+}
+
+.subFeature-div {
+  li {
+    font-size: 0.8em;
+  }
+}
